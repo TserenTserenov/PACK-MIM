@@ -43,6 +43,8 @@
 | Инженер-менеджер | Участник программ МИМ; одновременно роль, квалификация и идентичность | U.RoleAssignment | — |
 | Замер квалификации | Оценка мастерства как индикатор прогресса (≠ экзамен, ≠ допуск) | U.Episteme | MIM.WP.003 |
 | Марафон | Интенсивный композитный формат: фиксированная последовательность из уроков, заданий и практик с ежедневным ритмом (≠ курс) | U.Method | MIM.FMT.005 |
+| Принцип (S2) | Осознаваемое, проверяемое ограничение на мышление. Действует медленно, через рассуждения | A.7 Strict Distinction | MIM.D.007 |
+| Inductive bias (S1) | Встроенное в архитектуру ограничение, действующее автоматически и быстро. Формируется из принципов через practice | — (ML concept) | MIM.D.007 |
 
 ---
 
@@ -55,6 +57,8 @@
 | Method (M) | applied in → | Format (FMT) | MIM.M.001 → MIM.FMT.002 (deliberate practice → практикум) |
 | Role (R) | participates in → | Format (FMT) | MIM.R.001 → MIM.FMT.004 (наставник → разбор) |
 | Failure Mode (FM) | violates ← | Distinction (D) | MIM.FM.001 ← MIM.D.001 (послушал=научился ← семинар≠практикум) |
+| Distinction (D) | deepens → | Failure Mode (FM) | MIM.D.007 → MIM.FM.001 (принцип≠bias объясняет послушал=научился) |
+| Method (M) | converts via → | Distinction (D) | MIM.M.001 → MIM.D.007 (deliberate practice превращает принцип S2 в bias S1) |
 | Format (FMT) | contains → | Format (FMT) | MIM.FMT.004 inside MIM.FMT.002 (разбор внутри практикума) |
 | Program (PRG) | uses → | Format (FMT) | MIM.PRG.002 uses MIM.FMT.003 + MIM.FMT.004 |
 | Format (FMT) | composes → | Format (FMT) | MIM.FMT.005 composes MIM.FMT.001 + MIM.FMT.002 + MIM.FMT.004 |
