@@ -6,10 +6,12 @@ status: active
 created: 2026-02-11
 related:
   - MIM.M.001
+  - MIM.M.005
   - MIM.PRG.001
   - MIM.D.001
   - MIM.D.002
   - MIM.FMT.004
+  - MIM.R.005
 tags: [format, skill-training, personal-development, deliberate-practice]
 ---
 
@@ -42,6 +44,7 @@ tags: [format, skill-training, personal-development, deliberate-practice]
 
 - **Наставник** (MIM.R.001) — ведёт разборы, даёт обратную связь
 - Участник — выполняет упражнения
+- **Интеллектуальный партнёр** (MIM.R.005, опционально) — горизонтальная проверка мышления между разборами (MIM.M.005)
 
 ## Программа
 
