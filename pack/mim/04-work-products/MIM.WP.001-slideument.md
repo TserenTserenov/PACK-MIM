@@ -38,6 +38,8 @@ tags: [work-product, slideument, seminar, knowledge-transfer, ai-agent]
 
 ## Инструментарий
 
+> **Implementation Note.** Конкретный инструмент (Marp, VS Code) — текущая реализация. Доменное требование: слайдомент должен быть plain-text (версионируемый, редактируемый ИИ-агентом). Детали: [C2.IT-Platform](../../../DS-ecosystem-development/C.IT-Platform/C2.IT-Platform/).
+
 Основной инструмент: **Marp** — Markdown → слайды (PDF, HTML, PPTX).
 
 | Компонент | Назначение | Установка |
@@ -45,9 +47,9 @@ tags: [work-product, slideument, seminar, knowledge-transfer, ai-agent]
 | **Marp CLI** | Экспорт: `marp --pdf slides.md` | `npm install -g @marp-team/marp-cli` |
 | **Marp for VS Code** | Живой предпросмотр слайдов | VS Code → Extensions → «Marp for VS Code» |
 
-**Workflow:** Markdown-файл с frontmatter `marp: true` и разделителем `---` между слайдами → предпросмотр в VS Code → экспорт в PDF. Стилизация через CSS в теге `<style>` (тема, цвета, типографика). Совместим с Git: версии, диффы, правки через Claude Code.
+**Workflow:** Markdown-файл с frontmatter `marp: true` и разделителем `---` между слайдами → предпросмотр → экспорт в PDF. Стилизация через CSS. Совместим с Git: версии, диффы, правки.
 
-**Почему Marp:** Слайдомент — текстовый РП. PowerPoint/Google Slides не версионируются в Git и не редактируются ИИ-агентом. Marp = Markdown = plain text = полная интеграция с IWE.
+**Почему plain text:** Слайдомент — текстовый РП. Бинарные форматы (PowerPoint/Google Slides) не версионируются в Git и не редактируются ИИ-агентом. Plain text = полная интеграция с IWE.
 
 ## Где создаётся
 
