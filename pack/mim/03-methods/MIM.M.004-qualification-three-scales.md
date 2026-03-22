@@ -10,6 +10,7 @@ related:
   - MIM.D.011
 source: ailev.livejournal.com/1794653
 tags: [method, qualification, agency, scale, discipline]
+s2r_families: [F5]
 ---
 
 # MIM.M.004 — Квалификационная рамка: три шкалы

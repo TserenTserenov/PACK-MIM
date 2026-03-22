@@ -9,6 +9,7 @@ related:
   - MIM.FMT.002
   - MIM.R.001
 tags: [role, peer-learning, practicum]
+s2r_families: [F6]
 ---
 
 # MIM.R.005 — Интеллектуальный партнёр

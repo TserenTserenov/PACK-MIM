@@ -11,6 +11,7 @@ related:
   - MIM.PRG.003
   - MIM.PRG.001
 tags: [failure-mode, seminar, practicum, confusion, knowledge-vs-skill]
+s2r_families: [F6]
 ---
 
 # MIM.FM.001 — Послушал = научился

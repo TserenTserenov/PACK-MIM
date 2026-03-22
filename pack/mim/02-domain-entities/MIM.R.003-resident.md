@@ -10,6 +10,7 @@ related:
   - MIM.WP.002
   - MIM.D.003
 tags: [role, resident, residency, masterpiece, professional]
+s2r_families: [F6]
 ---
 
 # MIM.R.003 — Резидент

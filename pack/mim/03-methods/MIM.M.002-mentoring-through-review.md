@@ -11,6 +11,7 @@ related:
   - MIM.WP.003
   - MIM.D.004
 tags: [method, mentoring, review, feedback, qualification]
+s2r_families: [F5]
 ---
 
 # MIM.M.002 — Наставничество через разбор

@@ -10,6 +10,7 @@ related:
   - MIM.R.001
   - MIM.D.004
 tags: [work-product, qualification, measurement, review, indicator]
+s2r_families: [F6]
 ---
 
 # MIM.WP.003 — Замер квалификации

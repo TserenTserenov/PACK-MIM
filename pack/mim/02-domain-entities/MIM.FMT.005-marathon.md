@@ -12,6 +12,7 @@ related:
   - MIM.M.003
   - MIM.PRG.001
 tags: [format, marathon, intensive, composite, rhythm]
+s2r_families: [F5]
 ---
 
 # MIM.FMT.005 — Марафон

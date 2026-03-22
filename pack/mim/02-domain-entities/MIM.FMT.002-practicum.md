@@ -13,6 +13,7 @@ related:
   - MIM.FMT.004
   - MIM.R.005
 tags: [format, skill-training, personal-development, deliberate-practice]
+s2r_families: [F5]
 ---
 
 # MIM.FMT.002 — Практикум

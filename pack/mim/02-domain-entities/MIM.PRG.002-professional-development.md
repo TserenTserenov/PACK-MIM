@@ -13,6 +13,7 @@ related:
   - MIM.D.003
   - MIM.D.005
 tags: [program, professional-development, residency, masterpiece, work-result]
+s2r_families: [F5]
 ---
 
 # MIM.PRG.002 — Программа рабочего развития

@@ -9,6 +9,7 @@ related:
   - MIM.PRG.002
   - MIM.M.003
 tags: [failure-mode, stuck, repeat, residency, progression]
+s2r_families: [F6]
 ---
 
 # MIM.FM.003 — Застревание на повторе

@@ -10,6 +10,7 @@ related:
   - MIM.PRG.003
   - MIM.D.001
 tags: [format, knowledge-transfer, research-development]
+s2r_families: [F5]
 ---
 
 # MIM.FMT.001 — Семинар

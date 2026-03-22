@@ -10,6 +10,7 @@ related:
   - MIM.FMT.004
   - MIM.FM.002
 tags: [method, deliberate-practice, skill-training, adaptive-expertise]
+s2r_families: [F5]
 ---
 
 # MIM.M.001 — Deliberate Practice

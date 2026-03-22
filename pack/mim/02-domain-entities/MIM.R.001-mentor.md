@@ -13,6 +13,7 @@ related:
   - MIM.WP.003
   - MIM.D.007  # Преподавание ≠ Фасилитация
 tags: [role, mentor, review, feedback, master, facilitation]
+s2r_families: [F6]
 ---
 
 # MIM.R.001 — Наставник

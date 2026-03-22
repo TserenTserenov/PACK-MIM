@@ -3,6 +3,7 @@ id: MIM.DIST
 version: 1.0.0
 status: active
 created: 2026-02-11
+s2r_families: [F5]
 ---
 
 # Каталог различений: MIM

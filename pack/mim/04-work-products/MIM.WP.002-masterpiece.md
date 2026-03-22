@@ -11,6 +11,7 @@ related:
   - MIM.D.002
   - MIM.D.003
 tags: [work-product, masterpiece, residency, work-result, quality]
+s2r_families: [F6]
 ---
 
 # MIM.WP.002 — Шедевр

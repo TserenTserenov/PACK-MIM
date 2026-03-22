@@ -4,6 +4,7 @@ version: 1.0.0
 status: active
 created: 2026-02-25
 source: "ailev.livejournal.com/1792800, systemsworld.club/t/36725 (24 фев 2026)"
+s2r_families: [F5]
 ---
 
 # Эволюция МИМ

@@ -10,6 +10,7 @@ related:
   - MIM.FMT.004
   - MIM.R.005
 tags: [method, peer-learning, retrieval-practice, self-explanation, social-accountability]
+s2r_families: [F5]
 ---
 
 # MIM.M.005 — Интеллектуальные партнёры

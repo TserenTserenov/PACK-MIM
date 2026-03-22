@@ -11,6 +11,7 @@ related:
   - MIM.FMT.004
   - MIM.WP.003
 tags: [method, engineering-cycle, development-cycle, problematization]
+s2r_families: [F5]
 ---
 
 # MIM.M.003 — Инженерный цикл развития

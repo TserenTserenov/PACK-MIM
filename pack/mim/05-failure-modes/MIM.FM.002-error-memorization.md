@@ -10,6 +10,7 @@ related:
   - MIM.M.002
   - MIM.R.001
 tags: [failure-mode, error-memorization, review, feedback, deliberate-practice]
+s2r_families: [F6]
 ---
 
 # MIM.FM.002 — Заучивание ошибок

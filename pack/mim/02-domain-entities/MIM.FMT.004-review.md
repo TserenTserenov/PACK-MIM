@@ -11,6 +11,7 @@ related:
   - MIM.D.004
   - MIM.FM.002
 tags: [format, review, feedback, qualification, quality]
+s2r_families: [F5]
 ---
 
 # MIM.FMT.004 — Разбор

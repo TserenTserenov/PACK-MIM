@@ -12,6 +12,7 @@ related:
   - MIM.D.002
   - MIM.D.005
 tags: [program, personal-development, skill-training, deliberate-practice]
+s2r_families: [F5]
 ---
 
 # MIM.PRG.001 — Программа личного развития

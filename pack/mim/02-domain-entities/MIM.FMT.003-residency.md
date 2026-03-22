@@ -13,6 +13,7 @@ related:
   - MIM.D.003
   - MIM.FMT.004
 tags: [format, work-result, residency, masterpiece, professional-development]
+s2r_families: [F5]
 ---
 
 # MIM.FMT.003 — Резидентура

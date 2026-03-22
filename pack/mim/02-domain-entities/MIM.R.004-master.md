@@ -12,6 +12,7 @@ related:
   - MIM.D.009
 tags: [role, master, qualification, functional, residency]
 source: "systemsworld.club/t/36725 (24 фев 2026)"
+s2r_families: [F6]
 ---
 
 # MIM.R.004 — Мастер

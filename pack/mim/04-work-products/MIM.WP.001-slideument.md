@@ -9,6 +9,7 @@ related:
   - MIM.PRG.003
   - MIM.R.002
 tags: [work-product, slideument, seminar, knowledge-transfer, ai-agent]
+s2r_families: [F6]
 ---
 
 # MIM.WP.001 — Слайдомент

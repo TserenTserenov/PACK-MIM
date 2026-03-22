@@ -11,6 +11,7 @@ related:
   - MIM.D.001
   - MIM.D.005
 tags: [program, research-development, seminar, knowledge-transfer]
+s2r_families: [F5]
 ---
 
 # MIM.PRG.003 — Программа исследовательского развития

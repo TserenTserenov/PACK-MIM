@@ -12,6 +12,7 @@ related:
   - MIM.D.010  # Содержание ≠ Методика
   - MIM.FM.004  # Лекция = Обучение
 tags: [role, speaker, seminar, knowledge-transfer, instruction]
+s2r_families: [F6]
 ---
 
 # MIM.R.002 — Докладчик
