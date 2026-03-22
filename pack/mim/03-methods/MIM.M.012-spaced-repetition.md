@@ -1,0 +1,137 @@
+---
+id: MIM.M.012
+name: Spaced Repetition
+origin: EDU.M.007
+status: active
+s2r_families: [F5]
+summary: >
+  Distributing learning over increasing time intervals rather than massing
+  it into a single session. Second highest-rated learning strategy (d=0.54).
+sota: current
+created: 2026-02-19
+updated: 2026-03-22
+related:
+  produces:
+    - MIM.WP.006  # Lesson plan with spaced schedule
+  uses:
+    - MIM.D.023  # Prior knowledge determines spacing intervals
+  fails_with:
+    - MIM.FM.007  # Content without practice — spacing IS structured practice
+  synergy_with:
+    - MIM.M.011  # Retrieval Practice — retrieval + spacing = maximum effect
+    - MIM.M.009  # Experiential Learning — spacing Kolb cycles
+---
+
+## Definition
+
+Spaced Repetition (интервальное повторение) — метод обучения, при котором
+повторение материала распределяется по увеличивающимся временным интервалам,
+а не концентрируется в одной сессии ("cramming"). Основан на кривой забывания
+Эббингауза: каждое повторение в момент, когда память начинает угасать,
+значительно укрепляет долговременное запоминание.
+
+## Purpose
+
+Перевести информацию из кратковременной памяти в долговременную с минимальными
+затратами времени. Оптимизировать расписание повторений по индивидуальной
+кривой забывания ученика.
+
+## Inputs
+
+| Input | Description |
+|-------|-------------|
+| Учебный материал | Содержание, разбитое на дискретные единицы (карточки, вопросы, задачи) |
+| График интервалов | Расписание повторений с увеличивающимися интервалами |
+| Результат предыдущего повторения | Успешность припоминания определяет следующий интервал |
+
+## Outputs
+
+| Output | Description |
+|--------|-------------|
+| Долговременное запоминание | Материал удерживается месяцы и годы, не дни |
+| Оптимизированное время | Тратится только время на повторение в критические моменты |
+| Индивидуальная кривая | Данные о скорости забывания для каждой единицы |
+
+## Evidence Strength
+
+**Strong.** Один из наиболее воспроизводимых эффектов в когнитивной науке.
+
+| Источник | Результат |
+|----------|-----------|
+| Cepeda et al. (2006) | Мета-анализ: distributed practice > massed practice (d=0.54) |
+| Dunlosky et al. (2013) | Rated "high utility" — одна из 2 лучших стратегий из 10 |
+| Ebbinghaus (1885) | Первооткрыватель кривой забывания |
+| Pimsleur (1967) | Формализация graduated intervals для языкового обучения |
+| Leitner (1972) | Система карточек с интервальным повторением |
+
+## Spacing Schedule
+
+Типичные интервалы (алгоритм SM-2, Wozniak 1987):
+
+```
+Первое повторение:    1 день
+Второе повторение:    3 дня
+Третье повторение:    7 дней
+Четвёртое повторение: 14 дней
+Пятое повторение:     30 дней
+Далее:                ×2.5 от предыдущего интервала
+```
+
+При ошибке — интервал сбрасывается и начинается заново.
+
+## Roles Involved
+
+- **Instructional Designer (MIM.R.008):** Проектирует расписание курса
+  с учётом spacing (не всё в один день).
+- **Navigator (MIM.R.007):** Индивидуально калибрует интервалы под ученика.
+
+## Key Distinctions
+
+- **MIM.D.024 Ближний ≠ Дальний перенос.** Spaced repetition обеспечивает
+  прочный ближний перенос. Для дальнего — недостаточен (нужны ещё
+  interleaving и variability of practice).
+
+## Human ↔ AI Parallel (ECO.D.007)
+
+Кривая забывания Эббингауза ↔ catastrophic forgetting в нейросетях.
+Spaced repetition ↔ rehearsal methods в continual learning.
+Обе проблемы решают одну задачу: как удержать старое знание
+при поступлении нового.
+
+## Implementation Patterns
+
+| Паттерн | Описание | Инструменты |
+|---------|----------|-------------|
+| SRS Software | Алгоритмические карточки с автоматическим расписанием | Anki, SuperMemo, Quizlet |
+| Spiral Curriculum | Возврат к темам через увеличивающиеся интервалы в программе | Программы K-12 |
+| Distributed Practice | Разнесение практических занятий по дням/неделям | Любой учебный план |
+| Interleaved Review | Чередование старых и новых тем в каждом занятии | Семинары, уроки |
+
+## Failure Modes
+
+| ID | Failure Mode | Description |
+|----|-------------|-------------|
+| FM.001 | Cramming | Концентрация всего обучения перед экзаменом — кратковременный эффект, быстрое забывание |
+| FM.002 | Fixed intervals | Одинаковые интервалы для всех учеников/всех карточек — неоптимально |
+| FM.003 | Only recognition | Повторение = перечитывание (без retrieval) — минимальный эффект |
+
+## SoTA Status
+
+**Status:** current
+
+**Basis:**
+- Ebbinghaus, H. (1885). *Über das Gedächtnis.*
+- Cepeda, N. et al. (2006). "Distributed practice in verbal recall tasks."
+  *Psychological Bulletin*, 132(3), 354-380. d = 0.54.
+- Dunlosky, J. et al. (2013). "Improving Students' Learning." Rated "high utility."
+- Wozniak, P. (1987). SuperMemo algorithm SM-2 — first adaptive spacing algorithm.
+
+**Notes:** Spaced repetition — один из двух методов с рейтингом "high utility"
+по Dunlosky et al. (2013), наряду с Retrieval Practice.
+
+**Revision criterion:** Если появятся данные, что massed practice (cramming)
+обеспечивает такое же или лучшее долговременное запоминание.
+
+---
+
+*Pack ID: MIM | SPF.SPEC.001 compliant*
