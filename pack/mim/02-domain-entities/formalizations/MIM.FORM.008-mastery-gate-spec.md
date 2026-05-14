@@ -61,7 +61,7 @@ function mastery_gate(element_id, proposed_depth, history):
     return prev_depth       # gate закрыт — возвращаемся на предыдущую степень
 ```
 
-**Это уже реализовано** в `planner.py:_mastery_gate()` (строки 505–522). Спецификация подтверждает текущую реализацию как корректную.
+**Это уже реализовано** в `planner.py:_mastery_gate()` (функция `_mastery_gate`, ~строка 590). Спецификация подтверждает текущую реализацию как корректную. В `plan_horizon()` (Портной-2) gate также активирован с мая 2026 (commit `7493f15`).
 
 ### 2.3 Особые случаи
 
@@ -170,6 +170,7 @@ class LessonPlan:
 - [x] Функция `_build_context_hint(context, student_stage) -> str` — текст подсказки ✅ 1 апр
 - [x] Вызов `_derive_context` в основной функции `plan()` после выбора элемента ✅ 1 апр
 - [x] Существующий `_mastery_gate()` — без изменений (реализация корректна) ✅ 1 апр
+- [x] `_mastery_gate()` в `plan_horizon()` (Портной-2, horizon-aware) ✅ май 2026
 
 ---
 
