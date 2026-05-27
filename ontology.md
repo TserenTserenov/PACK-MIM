@@ -118,6 +118,10 @@
 | Инженер-менеджер | PD (PACK-personal) | Созидатель | MIM описывает КАК развивать, PD — КТО развивается |
 | Программы развития | ECO (PACK-ecosystem) | Компоненты экосистемы | Программы МИМ — подсистема экосистемы |
 | AI-агент (в контексте слайдомента) | DP (PACK-digital-platform) | DP.ROLE.* | ИТ-реализация использования слайдомента |
+| Различения MIM | MIM (this Pack) | `01B-distinctions.md` + `disjointness.md` | Hard distinctions with machine-readable disjointness registry (SPF.SPEC.002 §4.4) |
+| Методы обучения | EDU (PACK-education) | EDU.M.* | MIM использует переносимые методики; EDU описывает КАК учить любому предмету |
+| Deliberate Practice | PD (PACK-personal) | PD.M.001 | Foundational method for personal development, referenced across Packs |
+| Квалификационная рамка | DP (PACK-digital-platform) | DP.INDICATOR.* | Индикаторы платформы реализуют характеристики созидателя из PD через MIM-методики |
 
 ---
 

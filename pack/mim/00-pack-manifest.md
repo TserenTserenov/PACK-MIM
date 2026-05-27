@@ -5,6 +5,13 @@ version: 0.2.0
 status: draft
 created: 2026-02-11
 updated: 2026-05-22
+constraints:
+  - target: WP
+    required_fields: [author, status]
+  - target: INVALID_TYPE
+    required_fields: []
+  - target: FMT
+    required_fields: [name_ru, name_en]
 upstream:
   - SPF
   - FPF
