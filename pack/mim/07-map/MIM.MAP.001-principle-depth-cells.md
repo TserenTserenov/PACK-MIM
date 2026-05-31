@@ -133,13 +133,15 @@ cell:
 
 ## Рекомендация методов по глубинам
 
+> Нумерация MIM.M.NNN после расформирования PACK-education (2026-03-22, WP-154).
+
 | Глубина | Bloom | Рекомендуемые методы | Assessment type |
 |---------|-------|---------------------|-----------------|
-| 1 | Remember | Scaffolding (M.001), Retrieval (M.006) | observation |
-| 2 | Understand | Scaffolding (M.001), PBL начальный (M.002), Spaced (M.007) | artifact + observation |
-| 3 | Apply | PBL (M.002), Experiential (M.004), Backwards Design (M.005) | artifact |
-| 4 | Analyze | Case Method (M.003), PBL продвинутый (M.002) | artifact + portfolio |
-| 5 | Create | Experiential (M.004), Spiral (M.008), менторство | portfolio + peer_teaching |
+| 1 | Remember | Scaffolding (M.006), Retrieval (M.011) | observation |
+| 2 | Understand | Scaffolding (M.006), PBL начальный (M.007), Spaced (M.012) | artifact + observation |
+| 3 | Apply | PBL (M.007), Experiential (M.009), Backwards Design (M.010) | artifact |
+| 4 | Analyze | Case Method (M.008), PBL продвинутый (M.007) | artifact + portfolio |
+| 5 | Create | Experiential (M.009), Spiral (M.013), менторство | portfolio + peer_teaching |
 
 ---
 

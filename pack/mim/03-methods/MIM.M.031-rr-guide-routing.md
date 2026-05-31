@@ -40,7 +40,7 @@ mim_belonging_summary: |
   между дисциплинами программы РР (домен МИМ) и типами систем-объектов изменения.
   Не относится к PACK-personal (не описывает состояние субъекта) и не относится к
   PACK-digital-platform (не описывает контракт/инфраструктуру, а только данные маршрутизации).
-tags: [routing, org-development, rr-program, guide-selection, hermes-table-deprecated-name]
+tags: [routing, org-development, rr-program, guide-selection, routing-table-name-pending-revision]
 valid_from: 2026-05-31
 schema_version: 1
 wp: WP-377
