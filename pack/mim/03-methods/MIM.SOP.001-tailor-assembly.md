@@ -21,7 +21,7 @@ related:
     - MIM.M.006     # Scaffolding (в т.ч. scaffolding ИТ-навыков)
     - MIM.M.011     # Retrieval Practice (встроен в каждое занятие)
     - MIM.M.012     # Spaced Repetition (встроен в каждое занятие)
-    - PD.CAT.001    # Каталог мемов (64+ мемов, 3 глубины каждый)
+    - SA.CAT.001    # Единый каталог мемов (продуктивные + непродуктивные, PACK-systems-art; ex-PD.CAT.001)
     - PD.CAT.002    # Каталог практик (10 практик досуга, 4 степени)
     - PD.CAT.003    # Карточки практик (8 практик × 4 степени: can-do, задание, assessment)
   produces:
