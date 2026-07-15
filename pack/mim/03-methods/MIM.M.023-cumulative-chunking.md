@@ -18,7 +18,7 @@ s2r_families: [F5]
 
 ---
 
-# DP.M.095: Cumulative chunking — кумулятивный chunking больших проектов
+# MIM.M.023: Cumulative chunking — кумулятивный chunking больших проектов
 
 ## Обещание
 

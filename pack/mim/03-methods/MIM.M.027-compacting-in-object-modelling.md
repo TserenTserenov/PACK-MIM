@@ -18,7 +18,7 @@ s2r_families: [F5]
 
 ---
 
-# DP.SOTA.021: Compacting in Object Modelling
+# MIM.M.027: Compacting in Object Modelling
 
 ## Аннотация
 

@@ -18,7 +18,7 @@ s2r_families: [F5]
 
 ---
 
-# DP.M.097: Migration Translation Model — формальная трассируемость от business model к implemented system
+# MIM.M.025: Migration Translation Model — формальная трассируемость от business model к implemented system
 
 ## Обещание
 
