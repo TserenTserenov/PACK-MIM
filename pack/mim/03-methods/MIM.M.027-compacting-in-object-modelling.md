@@ -61,7 +61,7 @@ Partridge утверждает, что compacting — следствие *бол
 
 ## Связи
 
-- **DP.M.031** Re-engineering via Reverse + Forward — compacting проявляется именно на Forward-стадии.
+- **MIM.M.026** Re-engineering via Reverse + Forward — compacting проявляется именно на Forward-стадии.
 - **DP.D.063** Business Modelling ≠ System Modelling — compacting — свойство business model'и, не system model'и.
 - **DP.SOTA.001** DDD Strategic — bounded contexts ограничивают зону compacting.
 - **DP.SOTA.011** Coupling Model — coupling описывает связи, compacting описывает размер; ортогональные оси.
