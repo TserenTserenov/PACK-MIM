@@ -73,6 +73,16 @@ that action and reflection are both present and connected.
   cycles, helps the learner connect experiences across time, and provides
   perspective from their own experience.
 
+## Forces
+
+_(Optional, WP-448 Ф10) What competing pressures does this method balance._
+
+| Force | Tension |
+|-------|---------|
+| Full four-stage cycle ↔ time and momentum | Each stage (CE→RO→AC→AE) adds value, but running all four fully takes time — truncating under schedule pressure is exactly what produces partial learning (MIM.FM.014) |
+| Concrete experience ↔ abstract conceptualization | Grounding in a specific experience keeps the concept alive and applicable, but the method also demands generalization beyond that one experience — theory introduced without the prior experience stays inert (MIM.FM.015), while experience without conceptualization stays anecdotal |
+| Iterative depth ↔ linear closure | The cycle is meant to repeat and deepen understanding across rounds, which pulls against the natural desire to treat one pass through CE-RO-AC-AE as "done" |
+
 ## Related Methods
 
 - MIM.M.006 (Scaffolding) — scaffolding can be applied within any stage
@@ -90,6 +100,15 @@ that action and reflection are both present and connected.
   about riding a bicycle is informing; riding, falling, reflecting, and
   riding again is experiential learning. The distinction determines
   whether the full cycle is activated.
+
+## Bias-Annotation
+
+_(Optional, WP-448 Ф10) What systematic distortion does a practitioner risk when applying this method._
+
+| Bias | Direction of distortion |
+|------|--------------------------|
+| Reflection stage quietly dropped under time pressure | Concrete Experience is visible and easy to schedule (an activity happened), so attention and time default to it, while Reflective Observation — invisible, harder to verify happened at all — is the stage most often silently skipped, directly producing MIM.FM.013 |
+| Reflection journal treated as compliance artifact | Once a "reflection framework" exists as a required output, learners can drift toward filling it out to satisfy the requirement rather than genuinely engaging Reflective Observation — the artifact gets produced while the actual cognitive work it is meant to evidence does not happen |
 
 ## Failure Modes
 

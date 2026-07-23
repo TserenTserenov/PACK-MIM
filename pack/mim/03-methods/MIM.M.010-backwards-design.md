@@ -73,6 +73,16 @@ the learning goal.
   Design. Conducts the three-stage design process, ensures alignment,
   and produces the unit plan.
 
+## Forces
+
+_(Optional, WP-448 Ф10) What competing pressures does this method balance._
+
+| Force | Tension |
+|-------|---------|
+| Starting from results ↔ designer's instinct to start from activities | Engaging activities are the most concrete and motivating part of design to imagine first, but starting there is precisely the failure mode (MIM.FM.016) the whole three-stage sequence is built to prevent |
+| Coverage of content ↔ transfer goals | Standards and syllabi are naturally phrased as content to cover ("chapters 1-5"), but Stage 1 demands understanding and transfer objectives instead — collapsing back to coverage language undoes the method (MIM.FM.018) |
+| Assessment as bridge ↔ assessment as afterthought | Stage 2 must be defined before Stage 3 activities, but assessment is easy to treat as a final formality once activities are already planned — reversing the order reproduces the objective-assessment mismatch (MIM.FM.017) the method exists to close |
+
 ## Related Methods
 
 - MIM.M.006 (Scaffolding) — scaffolding sequences are designed in Stage 3
@@ -92,6 +102,15 @@ the learning goal.
   (assessment) bridges them by specifying what evidence of learning looks
   like. Confusing content with methodology leads to "covering material"
   without achieving understanding.
+
+## Bias-Annotation
+
+_(Optional, WP-448 Ф10) What systematic distortion does a practitioner risk when applying this method._
+
+| Bias | Direction of distortion |
+|------|--------------------------|
+| Stage 1 quietly reverts to a content list | Even designers who intend to write transfer-oriented goals tend to drift toward phrasing Stage 1 as "what topics to cover" — the familiar coverage framing is easier to write than genuine understanding/transfer objectives, and the drift is invisible until Stage 3 activities turn out content-driven |
+| Interesting activities pull design backward | Once a designer has a vivid activity in mind, effort tends to bend Stage 1/Stage 2 to justify that activity retroactively rather than letting the activity be selected because it serves an already-defined result — the sequence looks followed on paper while the actual reasoning ran in reverse |
 
 ## Failure Modes
 

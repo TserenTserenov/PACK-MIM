@@ -68,6 +68,16 @@ realistic contexts.
   theoretical frameworks before or after the case discussion to anchor
   learning.
 
+## Forces
+
+_(Optional, WP-448 Ф10) What competing pressures does this method balance._
+
+| Force | Tension |
+|-------|---------|
+| Structured case narrative ↔ open-ended decision | The case must give enough data for grounded analysis, but if it points too clearly toward one answer, the multi-perspective decision-making that defines the method collapses (MIM.FM.012) |
+| Facilitator synthesis ↔ multi-perspective discussion | The facilitator (Наставник) must synthesize insights and keep discussion productive, but synthesizing too early or too directively shuts down the very range of viewpoints the case is meant to surface |
+| Generalizable lessons ↔ situational specificity | The case is deliberately concrete and particular, yet the output explicitly requires "Lessons learned" — principles that must generalize beyond this one narrative without becoming abstract enough to lose contact with the decision actually made |
+
 ## Related Methods
 
 - MIM.M.007 (Problem-Based Learning) — both use real-world situations.
@@ -84,6 +94,15 @@ realistic contexts.
   analytical skill (the ability to reason about complex situations and make
   decisions), not just knowledge of facts or theories. Cases that test only
   recall of facts miss the point entirely.
+
+## Bias-Annotation
+
+_(Optional, WP-448 Ф10) What systematic distortion does a practitioner risk when applying this method._
+
+| Bias | Direction of distortion |
+|------|--------------------------|
+| Facilitator steers toward a "correct" answer | Under pressure to reach closure, facilitator attention drifts from holding open multiple viable interpretations toward converging the group on the answer the facilitator personally favors — this is explicitly named as MIM.FM.012, not a hypothetical risk |
+| Case quality overweighted, discussion framework underweighted | Effort concentrates on writing a rich, well-structured case (the visible artifact), while the analytical framework that structures the discussion — equally required per MIM.FM.011 — receives less attention because it produces no standalone document |
 
 ## Failure Modes
 
