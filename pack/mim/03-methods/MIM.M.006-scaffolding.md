@@ -64,6 +64,16 @@ bypassing the learning process.
 - **Navigator (MIM.R.007):** Provides one-on-one scaffolding in real time,
   adjusts support moment-by-moment based on learner responses.
 
+## Forces
+
+_(Optional, WP-448 Ф10) What competing pressures does this method balance._
+
+| Force | Tension |
+|-------|---------|
+| Support ↔ independence | Enough assistance keeps the task within the ZPD (not too hard), but every increment of support delays the moment the learner performs alone — fading too slowly breeds dependency (MIM.FM.005) |
+| Calibration to novice ↔ calibration to expert | The same scaffolding level that helps a beginner becomes extraneous cognitive load for someone with prior schemas (Sweller's Expertise Reversal Effect) — one fixed level cannot serve both |
+| Task complexity preserved ↔ task made accessible | Scaffolding must NOT simplify the target task (MIM.D.022) — it holds full complexity while changing only the assistance, which is harder to design than simply lowering difficulty |
+
 ## Related Methods
 
 - MIM.M.009 (Experiential Learning) — scaffolding can structure the
@@ -77,6 +87,15 @@ bypassing the learning process.
   the learner's level — it does NOT simplify the target task. The task
   remains at full complexity; what changes is the amount and type of
   assistance. Simplification removes complexity; scaffolding manages it.
+
+## Bias-Annotation
+
+_(Optional, WP-448 Ф10) What systematic distortion does a practitioner risk when applying this method._
+
+| Bias | Direction of distortion |
+|------|--------------------------|
+| Support removal lags behind demonstrated competence | Once a support routine is set up, it is easier to keep running it than to actively watch for the moment fading should start — attention drifts toward maintaining the scaffold rather than monitoring readiness, leading straight to MIM.FM.005 |
+| Prior-knowledge calibration skipped in favor of learning-style assumptions | Practitioners tend to over-weight surface preferences ("this learner likes more guidance") and under-weight actual prior knowledge, which is the variable Sweller's research says actually matters (MIM.D.023) |
 
 ## Failure Modes
 

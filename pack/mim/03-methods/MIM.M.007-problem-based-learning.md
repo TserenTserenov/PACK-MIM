@@ -63,6 +63,16 @@ producing transferable competence rather than inert knowledge.
   questions, ensures productive group dynamics. Does NOT provide answers
   or lecture.
 
+## Forces
+
+_(Optional, WP-448 Ф10) What competing pressures does this method balance._
+
+| Force | Tension |
+|-------|---------|
+| Genuine inquiry ↔ facilitator guidance | The facilitator must guide without lecturing (MIM.D.016) — too little guidance and learners flounder (MIM.FM.008), too much and the problem collapses into a worksheet (MIM.FM.007) |
+| Self-directed discovery ↔ cognitive load for novices | Problem-first learning drives learners to find their own knowledge gaps, but for novices without schemas this same open-endedness overloads working memory (Sweller) — hence the recommended pairing with scaffolding (MIM.M.006) |
+| Real-world realism ↔ learnability | An ill-structured problem must be realistic enough to demand genuine investigation, but structured enough that a knowledge gap is actually discoverable within the available resource materials |
+
 ## Related Methods
 
 - MIM.M.006 (Scaffolding) — facilitator guidance in PBL is a form of
@@ -83,6 +93,15 @@ producing transferable competence rather than inert knowledge.
   acquired in service of solving the problem (not for its own sake), and
   the problem-solving process itself builds skill. Assessing only
   knowledge misses half the outcome.
+
+## Bias-Annotation
+
+_(Optional, WP-448 Ф10) What systematic distortion does a practitioner risk when applying this method._
+
+| Bias | Direction of distortion |
+|------|--------------------------|
+| Facilitator drifts toward teaching | Under time pressure or when learners struggle, the facilitator's attention shifts from asking probing questions toward supplying answers directly — the role quietly slides from facilitation (MIM.D.016) into lecturing (MIM.FM.009), even when the facilitator believes they are still guiding |
+| Solution quality overweighted, reflection underweighted | Because the "Solution" output is concrete and gradeable, evaluators tend to over-focus on it while the "Reflection on learning process" output — equally required — gets treated as an afterthought, undermining the self-directed-learning half of PBL's purpose |
 
 ## Failure Modes
 
