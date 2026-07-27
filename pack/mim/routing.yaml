@@ -1,0 +1,114 @@
+# Машинный контракт маршрутизации знаний (WP-429 Ф6.1)
+# SoT для размещения записей этого Pack. Заменяет прозаические копии в:
+#   DP.KR.001 §5, memory/routing-vocab.md, memory/repo-type-rules.md, apply-captures/SKILL.md шаг 4в.
+# memory/routing-vocab.md — производная авто-собираемая проекция поверх этого файла, не редактировать вручную.
+# Ключ верхнего уровня — kinds: (код идентификатора, напр. MIM.FMT), НЕ types: (это поле frontmatter).
+# Вторичная сверка frontmatter — frontmatter_check: {field, value}; null, если у Pack нет
+# устоявшегося поля/значения для данного kind. Легитимный null здесь означает ПОДТВЕРЖДЁННОЕ
+# расхождение по ВСЕМ файлам kind (не по одному образцу) — см. комментарий на каждом null ниже
+# (Drift Reporting: расхождения не исправлены, только описаны).
+#
+# Исключены из kinds — найдены в pack/mim/, но НЕ следуют схеме KIND.NNN-slug.md (имя файла не
+# несёт kind-код), поэтому f6_placement_linter.kind_of() (сопоставление по префиксу ИМЕНИ ФАЙЛА)
+# в принципе не может их подхватить — вне юрисдикции контракта, тот же класс, что и «незаметная»
+# запись VR.ROLES-summary.md в PACK-verification/pack/verification/routing.yaml:
+#   - 00-pack-manifest.md — манифест Pack (id: MIM, без номера).
+#   - 01-domain-contract/01A-bounded-context.md (id: MIM.BC), 01B-distinctions.md (id: MIM.DIST,
+#     контейнер для kind MIM.D — см. ниже), 01C-evolution.md (id: MIM.EVOL) — singleton-документы
+#     контракта, имя файла 01A-/01B-/01C- не содержит kind-код.
+#   - 01-domain-contract/disjointness.md (id: MIM.DISJOINT) — та же природа; ВНИМАНИЕ: адресуется
+#     напрямую по абсолютному пути из PACK-verification/pack/verification/routing.yaml-соседа
+#     (pack-lint.sh [R5] disjoint_pairs использует ИМЕННО этот путь) — переименование/перенос
+#     сломает чужой Pack молча.
+#   - 07-map/s2r-view.md — авто-генерируемая сводка (`scripts/generate-s2r-view.py`,
+#     "Do not edit manually"); несёт id: MIM.MAP.003 во frontmatter, но имя файла НЕ следует
+#     схеме MIM.MAP.NNN-slug.md — не считать «третьей карточкой MAP», тот же класс исключения.
+schema_version: 1
+pack: mim
+
+kinds:
+  MIM.FMT:
+    dir: pack/mim/02-domain-entities/
+    id_pattern: 'MIM\.FMT\.\d{3}-[a-z0-9-]+\.md$'
+    frontmatter_check: {field: kind, value: "FMT (Format)"}
+    storage: file
+
+  MIM.PRG:
+    dir: pack/mim/02-domain-entities/
+    id_pattern: 'MIM\.PRG\.\d{3}-[a-z0-9-]+\.md$'
+    frontmatter_check: {field: kind, value: "PRG (Program)"}
+    storage: file
+
+  MIM.R:
+    dir: pack/mim/02-domain-entities/
+    id_pattern: 'MIM\.R\.\d{3}-[a-z0-9-]+\.md$'
+    frontmatter_check: {field: kind, value: "R (Role)"}
+    storage: file
+
+  MIM.D:
+    dir: pack/mim/01-domain-contract/
+    id_pattern: 'MIM\.D\.\d{3}-[a-z0-9-]+\.md$'
+    frontmatter_check: null
+    storage: section   # РЕАЛЬНОСТЬ — mixed storage, отличается от всех остальных kinds этого Pack:
+                        # 44 записи (MIM.D.001-044, проверено — без дублей и пропусков) хранятся НЕ
+                        # отдельными файлами, а секциями "## MIM.D.NNN — ..." внутри ОДНОГО файла
+                        # pack/mim/01-domain-contract/01B-distinctions.md (сам файл — singleton
+                        # MIM.DIST, исключён из kinds выше). f6_placement_linter проверяет id_pattern
+                        # против basename файла (re.search на имя, не на содержимое) — значит по
+                        # факту он никогда не увидит существующие MIM.D записи (они не файлы), но
+                        # dir/id_pattern здесь остаются как документальная норма: новую MIM.D
+                        # запись добавлять СЕКЦИЕЙ в 01B-distinctions.md, НЕ отдельным файлом. Если
+                        # кто-то по ошибке всё же создаст отдельный MIM.D.NNN-slug.md — сработает
+                        # guard (не там лежит либо не матчит id_pattern), см. негативный тест ниже.
+                        # 00-pack-manifest.md заявляет «25 штук» (Ключевые файлы) — стало 44,
+                        # запись устарела, не исправлялась (не мой файл, Drift Reporting).
+
+  MIM.FORM:
+    dir: pack/mim/02-domain-entities/formalizations/
+    id_pattern: 'MIM\.FORM\.\d{3}-[a-z0-9-]+\.md$'
+    frontmatter_check: null   # расхождение по всем 9 файлам: FORM.009 — kind: FORM; FORM.005-008 —
+                              # type: formalization|domain-entity (по 2); FORM.001-004 — ни kind,
+                              # ни type (только id/origin/name/status/summary/related). Не чиним.
+    storage: file
+
+  MIM.M:
+    dir: pack/mim/03-methods/
+    id_pattern: 'MIM\.M\.\d{3}-[a-z0-9-]+\.md$'
+    frontmatter_check: null   # расхождение по всем 37 файлам: 11 — kind: "M (Method)"; 1 (MIM.M.004)
+                              # — kind: "Method" (без буквенного кода, похоже на опечатку); 16 —
+                              # type: method; 9 (M.006-012, M.036-037) — ни kind, ни type. Не чиним.
+    storage: file
+
+  MIM.SOP:
+    dir: pack/mim/03-methods/
+    id_pattern: 'MIM\.SOP\.\d{3}-[a-z0-9-]+\.md$'
+    frontmatter_check: {field: type, value: sop}   # единственный файл на сегодня (SOP.001)
+    storage: file
+
+  MIM.WP:
+    dir: pack/mim/04-work-products/
+    id_pattern: 'MIM\.WP\.\d{3}-[a-z0-9-]+\.md$'
+    frontmatter_check: null   # расхождение по всем 8 файлам: WP.001-003 — kind: "WP (Work Product)";
+                              # WP.007-008 — type: work_product; WP.004-006 — ни kind, ни type. Не чиним.
+    storage: file
+
+  MIM.FM:
+    dir: pack/mim/05-failure-modes/
+    id_pattern: 'MIM\.FM\.\d{3}-[a-z0-9-]+\.md$'
+    frontmatter_check: null   # расхождение по всем 11 файлам: FM.001-003, FM.010-011 — kind: "FM
+                              # (Failure Mode)" (5/11); FM.004-009 — ни kind, ни type (6/11). Не чиним.
+    storage: file
+
+  MIM.SOTA:
+    dir: pack/mim/06-sota/
+    id_pattern: 'MIM\.SOTA\.\d{3}-[a-z0-9-]+\.md$'
+    frontmatter_check: {field: type, value: sota}   # единственный файл на сегодня (SOTA.001)
+    storage: file
+
+  MIM.MAP:
+    dir: pack/mim/07-map/
+    id_pattern: 'MIM\.MAP\.\d{3}-[a-z0-9-]+\.md$'
+    frontmatter_check: null   # расхождение по обоим файлам: MAP.001 — type: map; MAP.002 — kind: MAP
+                              # (разное ИМЯ ПОЛЯ, не только значение). Не чиним. (s2r-view.md с
+                              # id: MIM.MAP.003 исключён выше — не файл этой схемы.)
+    storage: file
